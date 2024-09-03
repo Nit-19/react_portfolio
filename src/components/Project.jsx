@@ -29,7 +29,7 @@ const Project = () => {
                         
                         transition={{duration:0.5 , delay:.5}}
                         className="my-2 max-w-xl py-6 font-light tracking-tight text-m mb-20">
-                            <span className='text-xl' ><b>Cynthia Ugwu 2.0</b> </span><br /><br />
+                            <span className='text-xl' ><b><a href="https://nit-19.github.io/Cynthia-ugwu-clone/" target='_blank'>Cynthia Ugwu 2.0</a></b> </span><br /><br />
                             <span>Cynthia Ugwu is a frontend development project created as a practice exercise to enhance web development skills. Built using HTML, CSS, and JavaScript, the project focuses on implementing modern web design principles and creating a user-friendly interface. This website serves as a demonstration of proficiency in frontend technologies, showcasing the ability to design, style, and add interactivity to web pages while maintaining clean and efficient code.</span>
                             <br />
                             <div className='my-2'>
@@ -60,7 +60,7 @@ const Project = () => {
                         
                         transition={{duration:0.5 , delay:.5}}
                         className="my-2 max-w-xl py-6 font-light tracking-tight text-m mb-20">
-                            <span className='text-xl' ><b> Age Calculator </b> </span><br /><br />
+                            <span className='text-xl' ><b> <a href="https://agecalculator-jug4uurpu-nitish-rais-projects.vercel.app/" target='_blank'>Age Calculator</a> </b> </span><br /><br />
                             <span>
                                 I created an age calculator as part of a Frontend Mentor assignment, emphasizing both functionality and design. The goal was to develop a user-friendly tool that accurately calculates age based on user input. I focused on achieving a nearly pixel-perfect layout using HTML, CSS, and JavaScript, enhancing my skills in creating clean, responsive interfaces while ensuring the application's reliability.
                             </span>
