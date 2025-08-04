@@ -24,7 +24,9 @@ const About = () => {
                             initial={{x : 100 , opacity:0}}
                             transition={{duration:0.5 , delay:0.5}}
                             className="my-2 max-w-xl py-6 font-light tracking-tight text-lg mb-20">
-                                As a passionate frontend developer, I craft exceptional user experiences with a focus on responsiveness, scalability, and maintainability. With expertise in HTML5, CSS3, JavaScript (ES6+), and React, I create visually stunning and highly interactive interfaces that delight users. I take a user-centered approach to development, prioritizing accessibility, performance, and usability, and stay current with the latest trends and best practices in frontend development. With a keen eye for detail and a passion for innovation, I'm always looking for ways to improve my craft, whether it's exploring new technologies or optimizing existing ones to deliver fast, seamless, and engaging experiences that meet and exceed user expectations.
+                               As a data-driven professional, I specialize in analyzing and interpreting complex datasets to uncover actionable insights and support business decision-making. I have hands-on experience with tools like Excel, SQL, Power BI, Google Analytics, Meta Ads, and Python, enabling me to build interactive dashboards, track campaign performance, and drive digital growth strategies.
+
+While my core strength lies in data analytics, I also have practical experience in frontend development (HTML, CSS, JavaScript, React.js) and a basic understanding of backend development, which helps me work efficiently on web-based dashboards and data integration projects.
                             </motion.p>
                         </div>
                     </div>

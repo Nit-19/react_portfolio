@@ -20,7 +20,7 @@ const Contact = () => {
                     <span className="mr-2">
                         <FaLocationDot />
                     </span>
-                    <p className="text-neutral-300">Sector 24 , DLF Phase 3 , Gurgaon, India</p>
+                    <p className="text-neutral-300">Gurgaon, Haryana, India</p>
                 </motion.div>
                 <motion.div
                 whileInView={{opacity:1 , x:0}}

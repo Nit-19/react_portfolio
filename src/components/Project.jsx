@@ -1,5 +1,6 @@
 import cynthia_2 from '../assets/cynthia_2.png';
 import age_cal from '../assets/age_cal.png';
+import excel from '../assets/excel.png';
 import {motion} from 'framer-motion'
 
 const Project = () => {
@@ -10,6 +11,36 @@ const Project = () => {
             initial={{opacity:0,y:-100}}
             transition={{duration:.5}}
             className="my-20 text-center text-4xl">Projects</motion.h1>
+            <div className="flex flex-wrap">
+                <div className="w-full lg:w-1/2 lg:p-8">
+                    <motion.div
+                    whileInView={{opacity:1 , x:0}}
+                    initial={{x : -100 , opacity:0}}
+                    
+                    transition={{duration:0.5 , delay:.5}}
+                    className="flex items-center justify-center">
+                        <img className="rounded-2xl " src={excel} alt="about_me_img" style={{ width: 400, height: 200, boxShadow: '0px 0px 20px rgba(150,150,150,0.7), 0px 0px 40px rgba(150,150,150,0.7)' }} />
+                    </motion.div>
+                </div>
+                <div className="w-full lg:w-1/2">
+                    <div className="flex justify-center lg:justify-start">
+                        <motion.p
+                        whileInView={{opacity:1 , x:0}}
+                        initial={{x : 100 , opacity:0}}
+                        
+                        transition={{duration:0.5 , delay:.5}}
+                        className="my-2 max-w-xl py-6 font-light tracking-tight text-m mb-20">
+                            <span className='text-xl' ><b><a href="https://nit-19.github.io/Cynthia-ugwu-clone/" target='_blank'>CPI Inflation Analysis (India)</a></b> </span><br /><br />
+                            <span>
+Analyzed Consumer Price Index data to identify category-wise contributions to inflation, with Food being the highest contributor. Tracked year-on-year and month-on-month trends from 2017–2023, including the impact of COVID-19 and oil price fluctuations. Used correlation analysis to link imported oil prices with category-wise inflation, highlighting fuel and transportation as most affected.</span>
+                            <br />
+                            <div className='my-2'>
+                                <span className='mr-2  rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800'>Excel</span>
+                            </div>
+                        </motion.p>
+                    </div>
+                </div>
+            </div>
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <motion.div

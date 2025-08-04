@@ -25,14 +25,15 @@ const Hero = () => {
                         variants={container(0.5)}
                         initial='hidden'
                         animate='visible'
-                        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Frontend Developer</motion.span>
+                        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Data Analyst</motion.span>
                         <motion.p 
                         variants={container(1)}
                         initial='hidden'
                         animate='visible'
-                        className="my-2 max-w-xl py-6 font-light tracking-tighter">As a highly motivated and enthusiastic fresher, I am excited to embark on a career as a Frontend developer. I am confident in my ability to design, develop, and deploy scalable and efficient applications.
-
-                            With a solid understanding of both front-end . Proficient in a range of programming languages, including JavaScript, HTML/CSS, Python, JAVA , React.js , mysql , postgresql and I am eager to apply my skills to real-world projects and continue learning and growing as a developer.</motion.p>
+                        className="my-2 max-w-xl py-6 font-light tracking-tighter"> I’m a motivated and adaptable professional with a strong interest in data analytics. I enjoy working with tools like  
+  <strong> Excel, SQL, Power BI, and Python</strong> to uncover insights and support smart decision-making. 
+  I also have basic experience in <strong>Google Analytics</strong> and <strong>Meta Ads</strong>, and I’m exploring how data can improve digital strategies. 
+  My background in <strong>HTML/CSS, JavaScript, and React.js</strong> helps me build simple dashboards and data-driven websites.</motion.p>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
